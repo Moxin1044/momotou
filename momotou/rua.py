@@ -21,7 +21,7 @@ def momotou(filename, save_filename):
     author = Image.open(img_file)
     # 获取绝对路径
     package_path = os.path.abspath(os.path.dirname(__file__))
-    png_dir = os.path.join(package_path, 'data\\')
+    png_dir = os.path.join(package_path, 'data/')
     # png_dir = os.getcwd() + '\\data\\'
     # 获取素材列表
     pst = os.listdir(png_dir)
