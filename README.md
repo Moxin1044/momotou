@@ -2,6 +2,16 @@
 使用Python快速制作一个摸摸头的GIF图片。
 
 # 使用
+你需要先Pip下来momotou
+```python
+pip install momotou
+```
+假如国内源有些没有同步，你可以尝试更新频繁的清华源或者官方源。
+```python
+https://pypi.tuna.tsinghua.edu.cn/simple
+https://pypi.python.org/simple/
+```
+
 ```python
 from momotou import momotou
 
