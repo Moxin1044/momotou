@@ -7,7 +7,7 @@ with io.open('README.md', encoding='utf-8') as f:
 
 setup(
     name='momotou',
-    version='1.0.1',
+    version='1.0.2',
     packages=['momotou'],
     install_requires=['Pillow'],
     url='https://www.qsnctf.com/',

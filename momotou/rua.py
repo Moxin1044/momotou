@@ -24,7 +24,9 @@ def momotou(filename, save_filename):
     png_dir = os.path.join(package_path, 'data/')
     # png_dir = os.getcwd() + '\\data\\'
     # 获取素材列表
-    pst = os.listdir(png_dir)
+    pst = list()
+    for i in range(10):
+        pst.append(f"{str(i+1)}.png")
     for i in range(len(pst)):
         pst[i] = png_dir + pst[i]
     # 预调试好的参数，传入素材列表
